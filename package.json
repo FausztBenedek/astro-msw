@@ -1,0 +1,25 @@
+{
+  "name": "astro-test",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^2.0.11"
+  },
+  "devDependencies": {
+    "@astrojs/sitemap": "^1.0.1",
+    "astro-compress": "^1.1.32",
+    "astro-seo": "^0.7.0",
+    "msw": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=18.12.1 <19.0.0",
+    "yarn": "^1.22.10"
+  }
+}

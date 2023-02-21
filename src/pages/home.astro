@@ -1,0 +1,17 @@
+---
+---
+<html>
+<head></head>
+<body>
+<script>
+    import {rest, setupWorker} from "msw";
+    setupWorker(
+        rest.post('/ac/registration', (req, res, ctx) => {
+            return res(
+                ctx.status(413),
+                )
+            }),
+        ).start()
+</script>
+</body>
+</html>
